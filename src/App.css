@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+}
+
+
+
+ul {
+  background-color: rgba(68, 38, 116, 0.256);
+  border-radius: 20px;
+  padding:12px 20px 12px 37px;
+  text-align: left;
+  color: white;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+  /* list-style-image: url("https://i.ibb.co/hyfJ4j2/Untitled-Artwork-4.png"); */
+}
+
+.completediv h1 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  ul {
+    font-size: 1.35rem;
+  }
+}
+
+@media (min-width: 800px) {
+  ul {
+    font-size: 1.5rem;
+  }
+}
