@@ -6,12 +6,10 @@
   height: 100%;
 }
 
-
-
 ul {
   background-color: rgba(68, 38, 116, 0.256);
   border-radius: 20px;
-  padding:12px 20px 12px 37px;
+  padding: 12px 20px 12px 37px;
   text-align: left;
   color: white;
   font-size: 1.1rem;
@@ -22,6 +20,33 @@ ul {
 
 .completediv h1 {
   font-size: 1.5rem;
+}
+
+a {
+  color: rgb(199, 248, 255);
+  text-decoration: none;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(199, 248, 255);
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  ul {
+    font-size: 1.25rem;
+  }
 }
 
 @media (min-width: 600px) {
