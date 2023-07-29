@@ -1,5 +1,5 @@
 # 100daysofcode
- This is a mini React + Vite projects showing what I've accomplished over the last 100 days of the challenge.
+ This is a mini React + Vite project showing what I've accomplished over the last 100 days of the challenge.
  The 100 DAYS design was inspired by the first project on https://100dayscss.com/ 😄
 
  Feel free to use this template for your own 100 days of code accomplishments!
